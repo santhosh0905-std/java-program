@@ -103,3 +103,46 @@ class Main{
         System.out.println(n);
     }
 }
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner data=new Scanner(System.in);
+        System.out.println("enter s1:");
+        String s1=data.nextLine();
+        System.out.println("jai ganesh".matches(s1));
+        System.out.println(s1.regionMatches(7,s1,2,1));
+    }
+}
+
+class Main{
+    public static void main(String[]args){
+        String s="anbu";
+        System.out.println(s.replace("a","v"));
+    }
+}
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner data=new Scanner(System.in);
+        System.out.println("enter s:");
+        String s=data.nextLine();
+        System.out.println(s.startsWith(" "));
+    }
+}
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner data=new Scanner(System.in);
+        String s=data.nextLine();
+        CharSequence a=s.subSequence(0,3);
+        CharSequence b=s.subSequence(3,8);
+        System.out.println(a+" "+b);
+    }
+}
+
+
+
+
